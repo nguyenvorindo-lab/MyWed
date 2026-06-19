@@ -1,0 +1,27 @@
+/* Kế thừa từ Chặng 1 */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #222222; background-color: #f3f4f6; }
+h1, h2, h3, p { margin-top: 0; }
+a { color: #ff6600; }
+
+/* Bổ sung Chặng 2 */
+.site-header {
+  padding: 18px 8%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.brand {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.main-nav a {
+  margin-right: 16px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#main-title {
+  color: #ff6600;
+}
