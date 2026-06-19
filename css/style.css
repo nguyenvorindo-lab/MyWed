@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
 }
@@ -15,10 +14,8 @@ h1, h2, h3, p {
 }
 
 a {
-  color: #ff6600;            
+  color: #ff6600;
 }
-
-
 
 .site-header {
   padding: 18px 8%;
@@ -44,33 +41,27 @@ a {
 }
 
 #main-title {
-  color: #ffffff;           
+  color: #ffffff;
 }
 
 .about-section {
-  padding: 40px 8%;
   background-color: #ffffff;
-  margin-top: 20px;
 }
 
 .topic-list {
   padding-left: 20px;
-  line-height: 1.8;
 }
 
-
-
 :root {
-  --primary: #111827;        
-  --accent: #ff6600;        
-  --soft: #f3f4f6;          
-  --dark: #111827;       
+  --primary: #111827;
+  --accent: #ff6600;
+  --soft: #f3f4f6;
+  --dark: #111827;
 }
 
 .hero {
   padding: 80px 8%;
   color: white;
-
   background: linear-gradient(135deg, var(--primary), #374151);
 }
 
@@ -88,10 +79,6 @@ a {
   background-color: #cc5200;
 }
 
-.style-guide {
-  padding: 40px 8%;
-}
-
 .swatches {
   display: flex;
   gap: 12px;
@@ -107,3 +94,39 @@ a {
 .swatch-primary { background-color: var(--primary); }
 .swatch-accent { background-color: var(--accent); }
 .swatch-soft { color: var(--dark); background-color: var(--soft); }
+
+.section {
+  padding: 56px 8%;
+}
+
+h1 {
+  font-size: clamp(36px, 6vw, 72px);
+  line-height: 1.05;
+}
+
+h2 {
+  font-size: 32px;
+  color: var(--dark);
+  text-align: center;
+}
+
+p, li {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.lead {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+blockquote {
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+  color: #4b5563;
+  border-left: 4px solid var(--accent);
+  padding: 10px 20px;
+  margin: 20px 0;
+}
